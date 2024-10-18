@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.appHeader{
+  text-align: center;
+}
+
+.navbar{
+  margin: 50px 0 50px 0;
+}
+
+.navbarElements{
+  padding: 0 15px 5px 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.filterSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #F6F5F4;
+  border: 1px solid #ddd;
+  border-radius: 25px 25px;
+}
+
+
+
+.filterSection>label>select,
+.filterSection>label>input {
+  margin-left: 15px;
+}
+
+.filterSection>label{
+  padding: 0 30px 0 30px;
+}
+
+
+
+.filterSection select,
+.filterSection input[type="text"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.filterSection select:focus,
+.filterSection input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.filterSection input[type="text"] {
+  width: 200px;
+}
+
+
+.tableSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  border-collapse: collapse;
+  
+ 
+  
+  
+  font-size: 16px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableSection thead {
+  background-color: #a0a2a5; /* Header background color */
+  color: #ffffff; /* Header text color */
+  text-align: left;
+}
+
+.tableSection th,
+.tableSection td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.tableSection th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tableSection tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+.tableSection tbody tr:hover {
+  background-color: #e0e0e0; /* Slightly darker background on row hover */
+  cursor: pointer;
+}
+
+
+.pagiNAtion{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.pagiNAtion div{
+  margin: 0 20px 0 20px;
+}
+
+.nextButton{
+  margin-right: 7px;
+}
+
+
+.statisticsSection {
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', Arial, sans-serif; /* Modern font */
+  margin : 0 100px 100px 100px;
+  border-radius: 25px 25px;
+}
+
+.statisticsSection h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.statisticsSection p {
+  font-size: 18px;
+  color: #555555;
+  margin: 10px 10px;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 25px 25px;
+}
+
+.statisticsSection p:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+
+.barChart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 100px 100px;
+  margin:300px;
+  margin-top: 10px;
+  padding: 50px;
+}
+
+.pieChart {
+  margin:300px;
+  margin-top: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 100px 100px;
+
+}
